@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: url('https://api.uomg.com/api/rand.img1?sort=美女')no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    换一张
+  </h1>
+  <script>
+    document.querySelector('h1').onclick = function () {
+      window.location.reload();
+    }
+  </script>
+</body>
+
+</html>
